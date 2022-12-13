@@ -26,5 +26,6 @@ function button() {
     localStorage = 1
   }
 
-  document.getElementById("words").innerHTML = "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
+  document.getElementById("words").innerHTML =
+    "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
 }
