@@ -20,8 +20,7 @@ if (navigator.serviceWorker) {
  * Words
  */
 function button() {
-  
-  if ( localStorage.hits ) {
+  if (localStorage.hits) {
     localStorage.hits = localStorage++
   } else {
     localStorage = 1
