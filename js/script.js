@@ -21,13 +21,19 @@ if (navigator.serviceWorker) {
  */
 function button() {
   let localStorage = 0
-
+  let numberOfClicked = 0
+  
   if (localStorage.hits) {
     localStorage.hits = localStorage++
   } else {
     localStorage = 1
   }
 
+  if( cookies.onClicked ) {
+    numberOfClicked = numberOfClicked++
+  }
+
+
   document.getElementById("words").innerHTML =
-    "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
+    "≫∘❁♥" + numberOfClicked + "♥❁∘≪"
 }
