@@ -33,6 +33,14 @@ h5 {
   text-align: center;
 }
 
+h6 {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -43,5 +51,5 @@ p {
 
 img {
   float: right;
-  margin-right: 15px;
+  margin-right: auto;
 }
