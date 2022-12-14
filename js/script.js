@@ -20,12 +20,10 @@ if (navigator.serviceWorker) {
  * Words
  */
 function cookies() {
-
   if (localStorage.hits) {
     localStorage.hits++
   } else {
     localStorage.hits = 1
   }
   document.getElementById(Total)("≫∘❁♥" + localStorage.hits + "♥❁∘≪")
-  
 }
