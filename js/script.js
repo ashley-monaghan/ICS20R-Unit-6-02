@@ -33,5 +33,6 @@ function cookies() {
     numberOfClicked = numberOfClicked++
   }
 
-  document.write("≫∘❁♥" + numberOfClicked + "♥❁∘≪")
+  document.getElementById(Total)("≫∘❁♥" + numberOfClicked + "♥❁∘≪")
+  
 }
