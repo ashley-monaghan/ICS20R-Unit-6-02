@@ -19,7 +19,7 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  * Words
  */
-function button() {
+function onClicked() {
   let localStorage = 0
   let numberOfClicked = 0
   
@@ -29,7 +29,7 @@ function button() {
     localStorage = 1
   }
 
-  if( cookies.onClicked ) {
+  if( cookies ) {
     numberOfClicked = numberOfClicked++
   }
 
