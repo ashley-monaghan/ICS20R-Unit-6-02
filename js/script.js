@@ -34,5 +34,4 @@ function cookies() {
   }
 
   document.getElementById(Total)("≫∘❁♥" + numberOfClicked + "♥❁∘≪")
-  
 }
