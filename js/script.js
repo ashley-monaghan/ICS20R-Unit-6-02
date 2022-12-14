@@ -22,17 +22,16 @@ if (navigator.serviceWorker) {
 function cookies() {
   let localStorage = 0
   let numberOfClicked = 0
-  
+
   if (localStorage.hits) {
     localStorage.hits = localStorage++
   } else {
     localStorage = 1
   }
 
-  if( cookies ) {
+  if (cookies) {
     numberOfClicked = numberOfClicked++
   }
 
   document.write("≫∘❁♥" + numberOfClicked + "♥❁∘≪")
-  
 }
