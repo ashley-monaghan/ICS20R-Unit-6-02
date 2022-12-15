@@ -26,5 +26,6 @@ function cookies() {
     localStorage.hits = 1
   }
 
-  document.getElementById("total").innerHTML = "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
+  document.getElementById("total").innerHTML =
+    "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
 }
