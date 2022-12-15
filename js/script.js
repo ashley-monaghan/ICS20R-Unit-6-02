@@ -25,5 +25,6 @@ function cookies() {
   } else {
     localStorage.hits = 1
   }
-  document.getElementById("total")("≫∘❁♥" + localStorage.hits + "♥❁∘≪")
+
+  document.getElementById("total").innerHTML = "≫∘❁♥" + localStorage.hits + "♥❁∘≪"
 }
